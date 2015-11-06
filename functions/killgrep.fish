@@ -1,4 +1,4 @@
-function killgrep --description "Kill processes from a lookup"
+function killgrep --description 'Kill processes from a lookup'
     if set -q $argv
         echo "You have to write an argument"
     else
